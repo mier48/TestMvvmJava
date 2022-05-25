@@ -4,37 +4,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ui.view.MainActivity">
+    tools:context=".ui.view.UserViewModelActivity">
 
-    <Button
-        android:id="@+id/btViewModel"
+    <EditText
+        android:id="@+id/etNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sumar ViewModel" />
+        android:hint="Nombre" />
 
-    <Button
-        android:id="@+id/btUserViewModel"
+    <EditText
+        android:id="@+id/etEdad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="User ViewModel" />
+        android:hint="Edad" />
 
     <Button
-        android:id="@+id/btLiveData"
+        android:id="@+id/btSalvar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Live Data" />
+        android:text="Salvar" />
 
     <Button
-        android:id="@+id/btDataBinding"
+        android:id="@+id/btVer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="DataBinding" />
+        android:text="Ver" />
 
-    <Button
-        android:id="@+id/btDBLABinding"
+    <TextView
+        android:id="@+id/tvUser"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="DataBinding LiveData" />
-
+        android:layout_height="wrap_content" />
 
 </LinearLayout>

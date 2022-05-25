@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TestMvvmJava">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.view.UserViewModelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.view.ViewModelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.view.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
