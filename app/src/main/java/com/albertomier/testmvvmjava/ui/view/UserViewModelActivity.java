@@ -35,7 +35,7 @@ public class UserViewModelActivity extends AppCompatActivity {
             User user = new User();
             user.setId(1);
             user.setName(binding.etNombre.getText().toString());
-            user.setAge(Integer.parseInt(binding.etEdad.getText().toString()));
+            user.setAge(binding.etEdad.getText().toString());
 
             viewModel.addUser(user);
         });

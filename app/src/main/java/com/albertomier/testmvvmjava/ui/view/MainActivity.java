@@ -26,5 +26,11 @@ public class MainActivity extends AppCompatActivity {
 
         binding.btUserViewModel.setOnClickListener(view ->
                 startActivity(new Intent(MainActivity.this, UserViewModelActivity.class)));
+
+        binding.btLiveData.setOnClickListener(view ->
+                startActivity(new Intent(MainActivity.this, LiveDataActivity.class)));
+
+        binding.btDataBinding.setOnClickListener(view ->
+                startActivity(new Intent(MainActivity.this, DataBindingActivity.class)));
     }
 }

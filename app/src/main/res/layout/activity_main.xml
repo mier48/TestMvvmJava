@@ -1,40 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".ui.view.MainActivity">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <Button
-        android:id="@+id/btViewModel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sumar ViewModel" />
+    <data>
 
-    <Button
-        android:id="@+id/btUserViewModel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="User ViewModel" />
+    </data>
 
-    <Button
-        android:id="@+id/btLiveData"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Live Data" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.view.MainActivity">
 
-    <Button
-        android:id="@+id/btDataBinding"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="DataBinding" />
+        <Button
+            android:id="@+id/btViewModel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sumar ViewModel" />
 
-    <Button
-        android:id="@+id/btDBLABinding"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="DataBinding LiveData" />
+        <Button
+            android:id="@+id/btUserViewModel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User ViewModel" />
+
+        <Button
+            android:id="@+id/btLiveData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Live Data" />
+
+        <Button
+            android:id="@+id/btDataBinding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DataBinding" />
+
+        <Button
+            android:id="@+id/btDBLABinding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DataBinding LiveData" />
 
 
-</LinearLayout>
+    </LinearLayout>
+</layout>

@@ -4,12 +4,12 @@ public class User {
 
     private Integer id;
     private String name;
-    private Integer age;
+    private String age;
 
     public User() {
     }
 
-    public User(Integer id, String name, Integer age) {
+    public User(Integer id, String name, String age) {
         this.id = id;
         this.name = name;
         this.age = age;
@@ -31,11 +31,11 @@ public class User {
         this.name = name;
     }
 
-    public Integer getAge() {
+    public String getAge() {
         return age;
     }
 
-    public void setAge(Integer age) {
+    public void setAge(String age) {
         this.age = age;
     }
 }

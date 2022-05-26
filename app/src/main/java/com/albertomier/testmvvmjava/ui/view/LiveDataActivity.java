@@ -31,16 +31,16 @@ public class LiveDataActivity extends AppCompatActivity {
             User user;
             switch (number) {
                 case 0:
-                    user = new User(number, "Nombre 1", 20);
+                    user = new User(number, "Nombre 1", "20");
                     break;
                 case 1:
-                    user = new User(number, "Nombre 2", 18);
+                    user = new User(number, "Nombre 2", "18");
                     break;
                 case 2:
-                    user = new User(number, "Nombre 3", 35);
+                    user = new User(number, "Nombre 3", "35");
                     break;
                 default:
-                    user = new User(number, "Nombre 99", 34);
+                    user = new User(number, "Nombre 99", "34");
             }
             viewModel.addUser(user);
             number++;
