@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TestMvvmJava">
         <activity
+            android:name=".ui.view.LiveDataActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.view.UserViewModelActivity"
             android:exported="false" />
         <activity
