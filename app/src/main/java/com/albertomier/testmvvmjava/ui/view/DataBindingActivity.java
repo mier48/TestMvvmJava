@@ -19,7 +19,6 @@ public class DataBindingActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = DataBindingUtil.setContentView(this, R.layout.activity_data_binding);
-        setContentView(binding.getRoot());
 
         user = new User(1, "Nombre 1", "24");
 

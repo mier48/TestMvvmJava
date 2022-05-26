@@ -32,5 +32,8 @@ public class MainActivity extends AppCompatActivity {
 
         binding.btDataBinding.setOnClickListener(view ->
                 startActivity(new Intent(MainActivity.this, DataBindingActivity.class)));
+
+        binding.btDBLABinding.setOnClickListener(view ->
+                startActivity(new Intent(MainActivity.this, DataBindingLiveDataActivity.class)));
     }
 }

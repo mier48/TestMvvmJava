@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TestMvvmJava">
         <activity
+            android:name=".ui.view.DataBindingLiveDataActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.view.DataBindingActivity"
             android:exported="false" />
         <activity
